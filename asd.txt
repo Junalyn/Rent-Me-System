@@ -1,0 +1,3 @@
+$sql = "SELECT category.category_id, item.item_id, item.description, category.description FROM items
+LEFT OUTER JOIN categories ON items.item_id = categories.category_id
+"
